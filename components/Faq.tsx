@@ -31,9 +31,14 @@ export default function Faq() {
 
   return (
     <section
-      id="faq"
-      className="py-32 px-10 bg-[#f7faf7]"
-    >
+  className="
+    py-32
+    relative z-10
+    bg-gradient-to-b
+    from-[#dcf0e5]
+    to-[#d5ecdf]
+  "
+>
       <div className="max-w-4xl mx-auto">
         <h2 className="text-5xl font-bold text-center mb-5">
           Frequently Asked Questions

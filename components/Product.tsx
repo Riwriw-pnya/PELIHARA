@@ -7,9 +7,14 @@ import {
 export default function Product() {
   return (
     <section
-      id="product"
-      className="py-32 px-10 bg-white"
-    >
+  className="
+    py-32
+    relative z-10
+    bg-gradient-to-b
+    from-[#e8f7ed]
+    to-[#e5f4eb]
+  "
+>
       <h2 className="text-5xl font-bold text-center mb-5">
         Produk Kami
       </h2>

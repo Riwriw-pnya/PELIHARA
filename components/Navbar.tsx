@@ -9,15 +9,15 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-[0_10px_40px_rgba(0,0,0,0.15)]">
-      <div className="w-full h-20 px-12 flex items-center justify-between">
+      <div className="w-full h-18 px-12 flex items-center justify-between">
 
         {/* Logo kiri */}
         <a href="#home">
           <Image
             src="/pelihara-logo.png"
             alt="Pelihara Logo"
-            width={120}
-            height={120}
+            width={100}
+            height={100}
           />
         </a>
 

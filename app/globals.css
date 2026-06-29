@@ -45,3 +45,19 @@ body {
   box-shadow:
     0 10px 30px rgba(0,0,0,0.05);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    #f8fff9 0%,
+    #f1fcf4 20%,
+    #ecf9f0 40%,
+    #e6f5ea 60%,
+    #dff2e4 80%,
+    #d7eedf 100%
+  );
+}

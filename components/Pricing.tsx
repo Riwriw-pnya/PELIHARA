@@ -1,9 +1,14 @@
 export default function Pricing() {
   return (
     <section
-      id="pricing"
-      className="py-32 px-8 bg-[#e8f8ee]"
-    >
+  className="
+    py-32
+    relative z-10
+    bg-gradient-to-b
+    from-[#e5f4eb]
+    to-[#dcf0e5]
+  "
+>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-5xl font-bold text-center mb-5">
           Paket Harga

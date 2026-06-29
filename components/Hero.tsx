@@ -4,12 +4,16 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="
-      min-h-screen
-      flex items-center
-      gradient-bg
-      px-10
-    ">
+    <section
+  className="
+  relative
+  z-10
+  min-h-screen
+  pt-32
+  flex items-center
+  px-10
+"
+>
       <div className="
         max-w-7xl mx-auto
         grid lg:grid-cols-2
