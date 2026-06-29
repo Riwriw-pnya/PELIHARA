@@ -41,7 +41,7 @@ export default function Hero() {
           <button className="
             mt-10 px-8 py-4
             rounded-2xl
-            bg-green-700
+            bg-[#408A71]
             text-white
             hover:scale-105
             transition
