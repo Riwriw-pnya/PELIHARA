@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7faf7;
+  color: #183225;
+}
+
+.gradient-bg {
+  background:
+    radial-gradient(circle at top right,
+      #d8f5df 0%,
+      #f8fbf8 60%);
+}
+
+.shadow-soft {
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.05);
+}
