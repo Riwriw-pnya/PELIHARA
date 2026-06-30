@@ -148,11 +148,12 @@ export default function Pricing() {
               SiMitra Pet Clinic
             </h3>
 
-            <h1 className="text-4xl font-black mt-6">
+            <h1
+              className="text-4xl font-black mt-6 text-[#1E7A4D] tracking-tight">
               Rp1.799.000
             </h1>
 
-            <p className="font-semibold mt-2">
+            <p className="font-semibold mt-2 text-gray-500">
               / tahun
             </p>
 
@@ -160,7 +161,7 @@ export default function Pricing() {
               className="
                 mt-5
                 inline-block
-                px-5 py-2
+                px-4 py-2
                 rounded-full
                 bg-green-100
                 text-green-700

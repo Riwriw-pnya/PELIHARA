@@ -36,10 +36,12 @@ export default function LoginPage() {
       <div className="
         w-full
         max-w-md
-        bg-[#f5f5f5]
+        bg-white/90
+        backdrop-blur-xl
         rounded-[28px]
         p-10
-        shadow-xl
+        border border-white/50
+        shadow-[0_25px_60px_rgba(0,0,0,0.15)]
       ">
         {/* Logo */}
         <div className="flex justify-center mb-8">
