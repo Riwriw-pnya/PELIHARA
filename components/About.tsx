@@ -80,7 +80,7 @@ export default function About() {
         {/* Gambar */}
         <div className="flex justify-center">
           <Image
-            src="/about.jpg"
+            src="/about-us.jpeg"
             alt="About Pelihara"
             width={550}
             height={400}
