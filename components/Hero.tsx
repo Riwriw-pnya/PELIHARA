@@ -5,18 +5,19 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section
-  className="
-  relative
-  z-10
-  min-h-screen
-  pt-32
-  flex items-center
-  px-10
-"
+      className="
+      relative
+      z-10
+      min-h-screen
+      pt-32
+      flex items-center
+      px-10
+    "
+    id="home"
 >
       <div className="
-        max-w-7xl mx-auto
-        grid lg:grid-cols-2
+        max-w-5xl mx-auto
+        grid md:grid-cols-2
         gap-16 items-center
       ">
         <motion.div
