@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="absolute inset-0 bg-green-900/50"></div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
-          <h2 className="text-5xl font-bold leading-tight">
+          <h2 className="text-4xl font-bold leading-tight">
             Investasikan waktu Anda untuk membuat
             manajemen klinik lebih efisien bersama
             Pelihara.
@@ -35,7 +35,7 @@ export default function Footer() {
 
           <div>
             <Image
-              src="/logo.png"
+              src="/pelihara-logo.png"
               alt="Pelihara"
               width={180}
               height={80}

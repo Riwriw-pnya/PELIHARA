@@ -7,9 +7,10 @@ export default function Pricing() {
     bg-gradient-to-b
     from-[#e5f4eb]
     to-[#dcf0e5]
-  "
+  " 
+  id="pricing"
 >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <h2 className="text-5xl font-bold text-center mb-5">
           Paket Harga
         </h2>
@@ -147,7 +148,7 @@ export default function Pricing() {
               SiMitra Pet Clinic
             </h3>
 
-            <h1 className="text-5xl font-black mt-6">
+            <h1 className="text-4xl font-black mt-6">
               Rp1.799.000
             </h1>
 

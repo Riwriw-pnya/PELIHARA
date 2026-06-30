@@ -10,12 +10,13 @@ export default function About() {
     from-[#edf9f1]
     to-[#e8f7ed]
   "
+  id="about"
 >
       {/* Dekorasi kiri bawah */}
       <div
         className="
           absolute
-          bottom-20
+          bottom-15
           -left-20
           w-72 h-24
           border-2 border-green-500
@@ -41,7 +42,7 @@ export default function About() {
         className="
           max-w-7xl
           mx-auto
-          px-10
+          px-20
           grid
           lg:grid-cols-2
           gap-20
@@ -50,14 +51,14 @@ export default function About() {
       >
         {/* Text */}
         <div>
-          <h2 className="text-6xl font-black text-black">
+          <h2 className="text-5xl font-black text-black">
             About{" "}
             <span className="text-green-700">
               Pelihara
             </span>
           </h2>
 
-          <p className="mt-10 text-2xl leading-relaxed text-gray-800">
+          <p className="mt-10 text-xl leading-relaxed text-gray-800">
             <span className="font-bold text-green-800">
               Pelihara
             </span>{" "}
@@ -68,7 +69,7 @@ export default function About() {
             dalam mengelola operasional secara efisien.
           </p>
 
-          <p className="mt-8 text-2xl leading-relaxed text-gray-800">
+          <p className="mt-8 text-xl leading-relaxed text-gray-800">
             Dengan fitur yang dapat disesuaikan sesuai kebutuhan klinik,
             Pelihara memastikan proses manajemen menjadi lebih{" "}
             <span className="font-bold text-green-800">
