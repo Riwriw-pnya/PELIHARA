@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-[0_10px_40px_rgba(0,0,0,0.15)]">
-      <div className="h-18 px-6 lg:px-12 flex items-center justify-between">
+      <div className="h-18 px-4 lg:px-12 flex items-center justify-between">
 
         {/* Logo */}
         <a href="/#home">
